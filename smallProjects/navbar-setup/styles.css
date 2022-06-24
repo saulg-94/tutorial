@@ -198,11 +198,13 @@ nav {
 .social-icons {
   display: none;
 }
+/* by default hide links */
 .links {
-  /* height: 0;
+  height: 0;
   overflow: hidden;
-  transition: var(--transition); */
+  transition: var(--transition);
 }
+/* toggle class */
 .show-links {
   height: 10rem;
 }
@@ -221,6 +223,8 @@ nav {
   .nav-toggle {
     display: none;
   }
+  /* IMPORTANT TO ADD HEIGHT OF AUTO */
+  /* watch lecture video 140 - JS tutorial */
   .links {
     height: auto;
     display: flex;
